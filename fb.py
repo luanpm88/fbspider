@@ -140,8 +140,8 @@ class FacebookCrawler(object):
 
 
 if __name__ == "__main__":
-    ipath = "input/kol_mom_bloggers.csv"
-    opath = "output/MOM_BLOGGERS/"
+    ipath = "input/1_2-kol_mom_bloggers.csv"
+    opath = "output/1_2-kol_mom_bloggers/"
     timedelta = (
         datetime.datetime(2010, 5, 29, 0, 0, 0),  # 2010
         datetime.datetime(2020, 5, 30, 23, 59, 59)  # 2020

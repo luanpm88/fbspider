@@ -39,7 +39,7 @@ def csv_compressor(poutput="output/KMCIC/"):
     fname = "facebook_{}{:02d}{:02d}0000.csv".format(now.year, now.month, now.day)
     files = os.listdir(f"{poutput}")
 
-    with open(f"/home/purusah/Desktop/{fname}", "w", encoding="utf-8") as fres:
+    with open(f"{poutput}{fname}", "w", encoding="utf-8") as fres:
         frescsv = csv.DictWriter(
             fres,
             fieldnames=config.fieldnames_output,
