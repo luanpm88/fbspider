@@ -1,0 +1,4 @@
+lxml==4.3.3
+pycountry==18.12.8
+requests==2.21.0
+selenium==3.141.0
