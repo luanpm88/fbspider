@@ -1,0 +1,1 @@
+export FB_EMAIL=luanpm@live.com && export FB_PASS=benho318iq && python3.6 fb.py
